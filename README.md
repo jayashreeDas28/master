@@ -34,3 +34,17 @@ Prevents duplicate and better to help in time of finding the elements
 
 LinkedHashMap
 Like regular HashMap we can insert elements in key/value pair but it can mantain insertion order .
+
+
+
+
+
+
+
+
+
+
+
+🤡Learing Generics
+
+
