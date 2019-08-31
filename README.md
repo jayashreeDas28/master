@@ -46,5 +46,38 @@ Like regular HashMap we can insert elements in key/value pair but it can mantain
 
 
 🤡Learing Generics
+Dozens of things we can learn from Generics but there is mainly three where we will be focusing 
+
+Creating instances og generified classess like ArrayLis:
+that means when we will be creating arrayList we have to tell which type of Object we gonna allow for this perticular list .
+new ArrayList<Song>();
+  
+  
+  Declaring and assigning variables of generic types 
+  how does polymorphism works with generic , is it possible to assign ArrayList<Dog> when we do have reference of          ArrayList<Animal>
+  
+  ArrayList<Animal> arrayList = new ArrayList<Dog>();
+  
+  
+  
+  Declaring and invoking methods that take generic types 
+  
+  we have a method that takes parameter say as Animal is it possible to send parameter Dog there .
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
 
 
