@@ -8,11 +8,12 @@ public class JukeBox {
 	ArrayList<String> songList = new ArrayList<String>();
 	public static void main(String arg[]) {
 		new JukeBox().go();
+		
 		}
 	
 	public void go() {
 	try {
-		File file = new File("/Users/jayashreedas/Documents/CollectionInJava/src/songList");
+		File file = new File("/Users/jayashreedas/git/master/CollectionInJava/src/songList");
 		BufferedReader reader = new BufferedReader( new FileReader(file));
 		String line = null ;
 		while((line = reader.readLine()) != null) {
