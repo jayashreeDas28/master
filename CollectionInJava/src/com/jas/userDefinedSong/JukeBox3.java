@@ -34,10 +34,14 @@ public class JukeBox3 {
 	public void go() {
 		Song s1 = new Song("baby don't","P","abc","efg");
 		songList.add(s1);
+		Song s5 = new Song("baby don't","P","abc","efg");
+		songList.add(s5);
 		Song s2 = new Song("alone walker","B","abcavbdghd","efg");
 		songList.add(s2);
 		Song s3 = new Song("love me","tyutt","abcavbdghd","efg");
 		songList.add(s3);
+		Song s4 = new Song("love me","tyutt","abcavbdghd","efg");
+		songList.add(s4);
 		System.out.println(songList);
 		//Collections.sort(songList);
 		//System.out.println(songList);
@@ -50,6 +54,15 @@ public class JukeBox3 {
 		});
 		
 		System.out.println(songList);
+		
+		
+		// will be using now set to remove duplicate elements 
+		HashSet<Song> songSet = new HashSet<Song>();
+		songSet.addAll(songList);
+		System.out.println(songSet);
+		
+		
+		
 		
 		
 	}
