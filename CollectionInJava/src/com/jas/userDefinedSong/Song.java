@@ -1,12 +1,20 @@
 package com.jas.userDefinedSong;
-
-public class Song {
+/**
+ * 
+ * @author jayashreedas
+ *
+ */
+public class Song implements Comparable<Song>{
 	String title ;
 	String artist ;
 	String rating;
 	String bpm ;
 	
 	
+	
+	public int compareTo(Song song) {
+		return title.compareTo(song.getTitle());
+	}
 	
 	public Song(String title , String artist ,String rating , String bpm){
 		this.title = title ;
@@ -38,4 +46,6 @@ public class Song {
 	public String toString() {
 		return title ;
 	}
+
+	
 }
