@@ -21,6 +21,16 @@ public class HashSetController {
 		System.out.println(hashSet.size());
 		
 		
+		TreeSet<Song1> songTreeSet = new TreeSet<Song1>();
+		songTreeSet.addAll(hashSet);
+		System.out.println(songTreeSet);
+		for(Song1 s: songTreeSet) {
+			System.out.println(s.getTile());
+		}
+		
+		
+		
+		
 		
 	}
 	
